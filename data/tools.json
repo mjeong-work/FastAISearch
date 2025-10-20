@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "ChatGPT",
+    "description": "Advanced conversational AI by OpenAI that can assist with writing, coding, analysis, and creative tasks",
+    "category": "Conversational AI",
+    "pricing": "free/paid",
+    "pricing_details": "$20/month for Plus",
+    "tags": ["chatbot", "writing", "coding", "analysis", "conversation"],
+    "features": ["Natural language understanding", "Code generation", "Multi-turn conversations", "Web browsing", "Image analysis"],
+    "website": "https://chat.openai.com"
+  },
+  {
+    "id": 2,
+    "name": "Midjourney",
+    "description": "AI image generator that creates stunning artwork from text descriptions",
+    "category": "Image Generation",
+    "pricing": "paid",
+    "pricing_details": "$10/month basic",
+    "tags": ["art", "images", "creative", "design", "visualization"],
+    "features": ["Text-to-image generation", "Style variations", "Upscaling", "Remix capabilities", "Discord integration"],
+    "website": "https://midjourney.com"
+  },
+  {
+    "id": 3,
+    "name": "GitHub Copilot",
+    "description": "AI pair programmer that helps you write code faster with intelligent suggestions",
+    "category": "Code Assistant",
+    "pricing": "paid",
+    "pricing_details": "$10/month",
+    "tags": ["coding", "programming", "autocomplete", "development", "productivity"],
+    "features": ["Code completion", "Multiple language support", "Context-aware suggestions", "Documentation generation", "IDE integration"],
+    "website": "https://github.com/features/copilot"
+  },
+  {
+    "id": 4,
+    "name": "Grammarly",
+    "description": "AI-powered writing assistant that checks grammar, spelling, and style in real-time",
+    "category": "Writing Assistant",
+    "pricing": "free/paid",
+    "pricing_details": "$12/month Premium",
+    "tags": ["writing", "grammar", "editing", "spelling", "style"],
+    "features": ["Grammar checking", "Tone detection", "Plagiarism detection", "Style suggestions", "Browser extension"],
+    "website": "https://grammarly.com"
+  },
+  {
+    "id": 5,
+    "name": "Jasper AI",
+    "description": "AI content creation platform for marketing copy, blog posts, and social media content",
+    "category": "Content Creation",
+    "pricing": "paid",
+    "pricing_details": "$39/month",
+    "tags": ["marketing", "content", "copywriting", "blog", "social media"],
+    "features": ["Content templates", "SEO optimization", "Brand voice customization", "Multi-language support", "Plagiarism checker"],
+    "website": "https://jasper.ai"
+  },
+  {
+    "id": 6,
+    "name": "Stable Diffusion",
+    "description": "Open-source text-to-image AI model that runs locally or on the cloud",
+    "category": "Image Generation",
+    "pricing": "free",
+    "pricing_details": "Free (open-source)",
+    "tags": ["art", "images", "open-source", "local", "customizable"],
+    "features": ["Text-to-image", "Image-to-image", "Inpainting", "Custom model training", "API access"],
+    "website": "https://stability.ai"
+  },
+  {
+    "id": 7,
+    "name": "Notion AI",
+    "description": "AI assistant integrated into Notion that helps with writing, summarizing, and brainstorming",
+    "category": "Productivity",
+    "pricing": "paid",
+    "pricing_details": "$10/month add-on",
+    "tags": ["productivity", "notes", "writing", "organization", "workspace"],
+    "features": ["Content generation", "Text summarization", "Action items extraction", "Translation", "Tone adjustment"],
+    "website": "https://notion.so/product/ai"
+  },
+  {
+    "id": 8,
+    "name": "Claude",
+    "description": "Anthropic's AI assistant focused on safety and helpfulness for various tasks",
+    "category": "Conversational AI",
+    "pricing": "free/paid",
+    "pricing_details": "$20/month Pro",
+    "tags": ["chatbot", "assistant", "analysis", "writing", "coding"],
+    "features": ["Long context windows", "Document analysis", "Code assistance", "Ethical AI", "API access"],
+    "website": "https://claude.ai"
+  },
+  {
+    "id": 9,
+    "name": "Runway ML",
+    "description": "AI-powered video editing and generation platform for creators",
+    "category": "Video Generation",
+    "pricing": "free/paid",
+    "pricing_details": "$12/month Standard",
+    "tags": ["video", "editing", "creative", "generation", "effects"],
+    "features": ["Text-to-video", "Video editing tools", "Green screen removal", "Motion tracking", "Style transfer"],
+    "website": "https://runwayml.com"
+  },
+  {
+    "id": 10,
+    "name": "Perplexity AI",
+    "description": "AI-powered search engine that provides direct answers with sources",
+    "category": "Search & Research",
+    "pricing": "free/paid",
+    "pricing_details": "$20/month Pro",
+    "tags": ["search", "research", "information", "citations", "knowledge"],
+    "features": ["Conversational search", "Source citations", "Follow-up questions", "Multi-source aggregation", "Real-time information"],
+    "website": "https://perplexity.ai"
+  },
+  {
+    "id": 11,
+    "name": "ElevenLabs",
+    "description": "Advanced AI voice generation and cloning platform for realistic speech synthesis",
+    "category": "Audio Generation",
+    "pricing": "free/paid",
+    "pricing_details": "$5/month Starter",
+    "tags": ["voice", "audio", "speech", "tts", "cloning"],
+    "features": ["Voice cloning", "Multilingual support", "Emotion control", "API access", "Voice library"],
+    "website": "https://elevenlabs.io"
+  },
+  {
+    "id": 12,
+    "name": "Copy.ai",
+    "description": "AI copywriting tool for creating marketing content and social media posts",
+    "category": "Content Creation",
+    "pricing": "free/paid",
+    "pricing_details": "$49/month Pro",
+    "tags": ["copywriting", "marketing", "content", "social", "automation"],
+    "features": ["Copy templates", "Brand voice", "Workflow automation", "Team collaboration", "90+ languages"],
+    "website": "https://copy.ai"
+  },
+  {
+    "id": 13,
+    "name": "Synthesia",
+    "description": "AI video creation platform with virtual avatars and text-to-speech",
+    "category": "Video Generation",
+    "pricing": "paid",
+    "pricing_details": "$30/month",
+    "tags": ["video", "avatar", "presentation", "training", "corporate"],
+    "features": ["AI avatars", "Text-to-video", "Custom avatars", "Multiple languages", "Screen recording"],
+    "website": "https://synthesia.io"
+  },
+  {
+    "id": 14,
+    "name": "Otter.ai",
+    "description": "AI meeting transcription and note-taking assistant",
+    "category": "Productivity",
+    "pricing": "free/paid",
+    "pricing_details": "$10/month Pro",
+    "tags": ["transcription", "meetings", "notes", "collaboration", "productivity"],
+    "features": ["Real-time transcription", "Meeting summaries", "Action items", "Speaker identification", "Integration with Zoom/Teams"],
+    "website": "https://otter.ai"
+  },
+  {
+    "id": 15,
+    "name": "Tabnine",
+    "description": "AI code completion tool supporting multiple programming languages and IDEs",
+    "category": "Code Assistant",
+    "pricing": "free/paid",
+    "pricing_details": "$12/month Pro",
+    "tags": ["coding", "autocomplete", "ide", "development", "productivity"],
+    "features": ["Code completion", "Whole-line suggestions", "Team learning", "Privacy-focused", "Multi-IDE support"],
+    "website": "https://tabnine.com"
+  }
+]
