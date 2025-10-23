@@ -61,6 +61,9 @@ header h1 {
 }
 
 #searchBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 15px 30px;
     background: #033d99;
     color: white;
@@ -68,11 +71,46 @@ header h1 {
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s, padding 0.3s;
+    }
+
+    #searchBtn .btn-text {
+        display: inline;
+    }
+
+    #searchBtn .btn-icon {
+        display: none;
+        width: 20px;
+        height: 20px;
 }
 
 #searchBtn:hover {
     background: #5f78a0;
+}
+
+@media (max-width: 600px) {
+    .search-bar {
+        gap: 8px;
+    }
+
+    #searchBtn {
+        padding: 12px 18px;
+        font-size: 15px;
+        min-width: 56px;
+    }
+
+    #searchBtn.is-compact {
+        padding: 12px;
+        min-width: 0;
+    }
+
+    #searchBtn .btn-text {
+        display: none;
+    }
+
+    #searchBtn .btn-icon {
+        display: block;
+    }
 }
 
 .filters {

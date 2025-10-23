@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OptivAI</title>
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="/static/styles.css?v=1.1">
 </head>
 <body>
     <div class="container">
@@ -16,7 +16,12 @@
         <div class="search-section">
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Search tools by name, description, or tags...">
-                <button id="searchBtn">Search</button>
+                <button id="searchBtn" aria-label="Search">
+                    <span class="btn-text">Search</span>
+                    <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 4l-8 8h5v8h6v-8h5z" fill="white" />
+                    </svg>
+                </button>
             </div>
 
             <div class="filters">
@@ -67,6 +72,6 @@
         </div>
     </div>
 
-    <script src="/static/script.js"></script>
+    <script src="/static/script.js?v=1.1"></script>
 </body>
 </html>
