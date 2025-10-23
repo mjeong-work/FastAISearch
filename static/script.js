@@ -1,6 +1,18 @@
 let allTools = [];
 let selectedToolIds = new Set();
 
+const searchButton = document.getElementById('searchBtn');
+
+function updateSearchButtonDisplay() {
+    if (!searchButton) return;
+
+    const isCompact = window.innerWidth <= 600;
+    searchButton.classList.toggle('is-compact', isCompact);
+}
+
+window.addEventListener('resize', updateSearchButtonDisplay);
+updateSearchButtonDisplay();
+
 async function fetchTools(params = {}) {
     const queryParams = new URLSearchParams();
     
@@ -192,7 +204,7 @@ function clearCompare() {
     displayTools(allTools);
 }
 
-document.getElementById('searchBtn').addEventListener('click', handleSearch);
+searchButton.addEventListener('click', handleSearch);
 document.getElementById('searchInput').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') handleSearch();
 });

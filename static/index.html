@@ -16,7 +16,12 @@
         <div class="search-section">
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Search tools by name, description, or tags...">
-                <button id="searchBtn">Search</button>
+                <button id="searchBtn" aria-label="Search">
+                    <span class="btn-text">Search</span>
+                    <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 4l-8 8h5v8h6v-8h5z" fill="white" />
+                    </svg>
+                </button>
             </div>
 
             <div class="filters">
