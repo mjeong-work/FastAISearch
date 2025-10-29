@@ -9,52 +9,7 @@ body {
     background: #ffffff;
     min-height: 100vh;
     padding: 20px;
-    padding-top: calc(1.5cm + 40px);
-    }
-
-    .top-bar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 1cm;
-        background: #f2f2f2;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
-        display: flex;
-        align-items: center;
-        z-index: 100;
-    }
-
-    .top-bar-content {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 20px;
-    }
-
-    .top-bar-text {
-        font-size: 0.95rem;
-        color: #333333;
-    }
-
-    .top-bar-links {
-        display: flex;
-        gap: 16px;
-    }
-
-    .top-bar-link {
-        color: #033d99;
-        font-weight: 600;
-        text-decoration: none;
-        font-size: 0.95rem;
-    }
-
-    .top-bar-link:hover,
-    .top-bar-link:focus {
-        text-decoration: underline;
+}
 
 .container {
     max-width: 1200px;
