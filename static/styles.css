@@ -11,6 +11,35 @@ body {
     padding: 20px;
 }
 
+.catalog-link {
+    position: fixed;
+    top: 16px;
+    right: 24px;
+    background: #033d99;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 12px 24px rgba(3, 61, 153, 0.25);
+    transition: transform 0.2s ease, background 0.2s ease;
+    z-index: 1000;
+}
+
+.catalog-link:hover {
+    background: #0f52ba;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+    .catalog-link {
+        top: 12px;
+        right: 16px;
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

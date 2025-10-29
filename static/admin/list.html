@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Admin</title>
+    <link rel="stylesheet" href="/static/styles.css?v=1.1">
+    <link rel="stylesheet" href="/static/admin/admin.css?v=1">
+</head>
+<body data-page="list">
+    <div class="admin-container">
+        <header class="admin-header">
+            <div>
+                <h1>Catalog Admin</h1>
+                <p class="admin-subtitle">Manage AI tools shown on the homepage catalog.</p>
+            </div>
+            <div class="admin-header-actions">
+                <a class="admin-button" href="/admin/tools/new">Add Tool</a>
+                <a class="admin-button secondary" href="/">Back to Site</a>
+            </div>
+        </header>
+
+        <div id="tableMessage" class="admin-feedback" role="status"></div>
+
+        <div class="table-wrapper">
+            <table class="tools-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Pricing</th>
+                        <th>Tags</th>
+                        <th>Features</th>
+                        <th>Website</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="toolsTableBody">
+                    <tr>
+                        <td colspan="8" class="empty-state">Loading tools...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/static/admin/admin.js?v=1" defer></script>
+</body>
+</html>

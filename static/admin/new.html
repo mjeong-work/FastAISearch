@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Tool</title>
+    <link rel="stylesheet" href="/static/styles.css?v=1.1">
+    <link rel="stylesheet" href="/static/admin/admin.css?v=1">
+</head>
+<body data-page="new">
+    <div class="admin-container">
+        <header class="admin-header">
+            <div>
+                <h1>Add Tool</h1>
+                <p class="admin-subtitle">Create a new AI tool entry for the catalog.</p>
+            </div>
+            <div class="admin-header-actions">
+                <a class="admin-button secondary" href="/admin/tools">Back to List</a>
+            </div>
+        </header>
+
+        <form id="toolForm" class="admin-form">
+            <div class="form-grid">
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="name" required>
+                </label>
+                <label>
+                    <span>Category</span>
+                    <input type="text" name="category" required>
+                </label>
+                <label>
+                    <span>Pricing</span>
+                    <input type="text" name="pricing" required>
+                </label>
+                <label>
+                    <span>Website URL</span>
+                    <input type="url" name="website" required>
+                </label>
+            </div>
+
+            <label>
+                <span>Description</span>
+                <textarea name="description" rows="4" required></textarea>
+            </label>
+
+            <div class="form-grid">
+                <label>
+                    <span>Tags (comma-separated)</span>
+                    <input type="text" name="tags">
+                </label>
+                <label>
+                    <span>Features (comma-separated)</span>
+                    <input type="text" name="features">
+                </label>
+            </div>
+
+            <div id="formMessage" class="admin-feedback" role="alert"></div>
+
+            <div class="form-actions">
+                <button type="button" id="draftBtn" class="admin-button secondary">Save as Draft</button>
+                <button type="button" id="publishBtn" class="admin-button">Publish</button>
+            </div>
+        </form>
+    </div>
+    <script src="/static/admin/admin.js?v=1" defer></script>
+</body>
+</html>
